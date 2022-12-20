@@ -220,3 +220,24 @@ p.drclinic {
     border-color: transparent;
     color:#fff;
 }
+
+@media(max-width:500px){
+    .clb{
+        padding: 9px 15px;
+    }
+    .container {
+        max-width: 320px;
+        padding: 20px 10px;
+    }
+    .apdetails {
+        padding: 0 0 0 20px;
+    }
+    .bcb .lb i{
+        left:24px;
+    }
+    .apdetails {
+        padding: 0 0 0 10px;
+        font-size: 14px;
+    }
+
+}
