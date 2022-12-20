@@ -1,0 +1,222 @@
+body {
+	background-color: #E5E5E5;
+	margin: 0;
+	font-family:'Quicksand', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	color: #000;
+	font-weight: 400;
+}
+a {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+.container{
+	width: 100%;
+	max-width: 360px;
+    margin:0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+.upcoming-app {
+    text-align: center;
+    position: relative;
+    margin: 0 0 40px;
+}
+.upcoming-app i {
+    position: absolute;
+    left: 0;
+    font-size: 26px;
+    line-height: 19px;
+    cursor: pointer;
+}
+.upcoming-app h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.newbooking {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(96.25deg, #0037C5 8.58%, #08005F 102.54%);
+    border-radius: 9px;
+    padding: 0;
+    height: 75px;
+    color: #fff;
+    text-transform: capitalize;
+    margin:0 0 20px;
+}
+.bn-title {
+    font-size: 15px;
+    font-weight: 700;
+}
+.booknow .bn {
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(83.18deg, #FF8412 -30.08%, #D23758 60.11%, #B1008A 97.49%);
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    padding: 4px 11px;
+    transition: all 0.5s ease 0s;
+}
+.booknow .bn:hover{
+    background: linear-gradient(94.33deg, #FF8412 22.44%, #FF8412 22.45%, #B1008A 124.46%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.drbg {
+    background-color: #F6F6F6;
+    padding: 20px 10px;
+    border-radius: 9px;
+    margin: 0 0 20px;
+}
+.btns-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 25px;
+}
+.clb {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    box-shadow: 0px 8px 4px rgb(0 0 0 / 15%);
+    transition: all 0.3s ease 0s;
+    background-color: #EDEDED;
+    display: inline-block;
+    padding: 9px 19px;
+    color: #000;
+    border-radius: 45px;
+}
+.clb:hover,.clb.active{
+    background: linear-gradient(94.33deg, #FF8412 22.44%, #FF8412 22.45%, #B1008A 124.46%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:#fff;
+}
+.drimg img {
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+    border: 2px solid #f7bd88;
+}
+.drapp-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px;
+}
+.apdetails {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+
+}
+.drapmt-test {
+    margin: 7px 0 0;
+    font-weight: 500;
+}
+
+.drapmt-date {
+    margin: 0 0 6px;
+}
+
+p.drclinic {
+    margin: 0;
+}
+
+.drname {
+    margin: 0 0 7px;
+    color: #E97000;
+}
+.btnaction-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bcb .lb {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    background-color: #EDEDED;
+    display: inline-block;
+    padding: 12px 10px;
+    color: #fff;
+    border-radius: 50px;
+    background: linear-gradient(93.12deg, #B1008A -19.35%, #060D67 122.43%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    position: relative;
+    border:1px solid transparent;
+}
+.bcb .lb:hover,.bcb:last-child a.lb:hover{
+    background: linear-gradient(94.33deg, #FF8412 22.44%, #FF8412 22.45%, #B1008A 124.46%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: transparent;
+    color:#fff;
+}
+.bcb .lb i{
+    font-size: 16px;
+    position: absolute;
+    left: 30px;
+    top: 9px;
+}
+.bcb .lb span {
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+
+
+.bcb {
+    width: 32%;
+}
+.backbtn {
+    margin: 21px 0 0;
+}
+.btn-b {
+    font-size: 12px;
+    background: linear-gradient(94.33deg, #F1F1F1 22.44%, #F1F1F1 124.46%);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+    border: navajowhite;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.bcb:last-child a.lb {
+    background: #F7F7F7;
+    box-shadow: none;
+    border: 1px solid #333;
+    color: #000;
+}
+.btn-b:hover{
+    background: linear-gradient(94.33deg, #FF8412 22.44%, #FF8412 22.45%, #B1008A 124.46%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: transparent;
+    color:#fff;
+}
